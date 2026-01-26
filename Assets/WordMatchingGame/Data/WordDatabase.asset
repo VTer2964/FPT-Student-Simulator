@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b055bacabf4e1b43ad9cf91955b5ff5, type: 3}
+  m_Name: WordDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::WordMatchingGame.Data.WordDatabase
+  allWords:
+  - englishWord: Cat
+    vietnameseWord: "M\xE8o"
+    id: 1
+    difficulty: 1
+    category: Animals
+  - englishWord: Dog
+    vietnameseWord: "Ch\xF3"
+    id: 2
+    difficulty: 1
+    category: Animals
+  - englishWord: Bird
+    vietnameseWord: Chim
+    id: 3
+    difficulty: 1
+    category: Animals
+  - englishWord: Fish
+    vietnameseWord: "C\xE1"
+    id: 4
+    difficulty: 1
+    category: Animals
+  - englishWord: Elephant
+    vietnameseWord: Voi
+    id: 5
+    difficulty: 2
+    category: Animals
+  - englishWord: Tiger
+    vietnameseWord: "H\u1ED5"
+    id: 6
+    difficulty: 2
+    category: Animals
+  - englishWord: Butterfly
+    vietnameseWord: "B\u01B0\u1EDBm"
+    id: 7
+    difficulty: 2
+    category: Animals
+  - englishWord: Crocodile
+    vietnameseWord: "C\xE1 s\u1EA5u"
+    id: 8
+    difficulty: 3
+    category: Animals
+  - englishWord: Red
+    vietnameseWord: "\u0110\u1ECF"
+    id: 9
+    difficulty: 1
+    category: Colors
+  - englishWord: Blue
+    vietnameseWord: "Xanh d\u01B0\u01A1ng"
+    id: 10
+    difficulty: 1
+    category: Colors
+  - englishWord: Green
+    vietnameseWord: "Xanh l\xE1"
+    id: 11
+    difficulty: 1
+    category: Colors
+  - englishWord: Yellow
+    vietnameseWord: "V\xE0ng"
+    id: 12
+    difficulty: 1
+    category: Colors
+  - englishWord: Purple
+    vietnameseWord: "T\xEDm"
+    id: 13
+    difficulty: 2
+    category: Colors
+  - englishWord: Orange
+    vietnameseWord: Cam
+    id: 14
+    difficulty: 2
+    category: Colors
+  - englishWord: Rice
+    vietnameseWord: "C\u01A1m"
+    id: 15
+    difficulty: 1
+    category: Food
+  - englishWord: Bread
+    vietnameseWord: "B\xE1nh m\xEC"
+    id: 16
+    difficulty: 1
+    category: Food
+  - englishWord: Water
+    vietnameseWord: "N\u01B0\u1EDBc"
+    id: 17
+    difficulty: 1
+    category: Food
+  - englishWord: Apple
+    vietnameseWord: "T\xE1o"
+    id: 18
+    difficulty: 1
+    category: Food
+  - englishWord: Banana
+    vietnameseWord: "Chu\u1ED1i"
+    id: 19
+    difficulty: 1
+    category: Food
+  - englishWord: Chicken
+    vietnameseWord: "G\xE0"
+    id: 20
+    difficulty: 2
+    category: Food

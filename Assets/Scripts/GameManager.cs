@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public enum MedalType { Gold, Silver, Bronze }
+public enum MedalType { None = 0, Bronze = 1, Silver = 2, Gold = 3 }
 
 public class GameManager : MonoBehaviour
 {
@@ -42,6 +42,9 @@ public class GameManager : MonoBehaviour
             case MedalType.Bronze:
                 bronze++;
                 totalScore += 1;
+                break;
+            case MedalType.None:
+                // No medal awarded, no points added
                 break;
         }
     }
