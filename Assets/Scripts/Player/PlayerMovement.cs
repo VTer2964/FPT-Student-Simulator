@@ -8,9 +8,16 @@ public class PlayerMovement : MonoBehaviour
     CharacterController controller;
     Vector3 velocity;
 
+    // THÊM: Animator để điều khiển animation
+    public Animator anim;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
+
+        // TÌM Animator trong child model (hoặc kéo thủ công)
+        if (anim == null)
+            anim = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -21,6 +28,13 @@ public class PlayerMovement : MonoBehaviour
 
         // Hướng di chuyển theo local space
         Vector3 move = transform.right * x + transform.forward * z;
+
+        // THÊM: Tính speed cho animation (0 = đứng yên, 1 = chạy max)
+        float speed = move.magnitude;  // Độ dài vector di chuyển
+
+        // THÊM: Gửi speed cho Animator
+        if (anim != null)
+            anim.SetFloat("Speed", speed, 0.1f, Time.deltaTime);
 
         // Gọi Move để di chuyển
         controller.Move(move * moveSpeed * Time.deltaTime);
