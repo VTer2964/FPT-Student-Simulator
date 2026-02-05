@@ -191,10 +191,11 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -252,7 +253,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -30}
+  m_AnchoredPosition: {x: 0, y: -69}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &167177987
@@ -398,7 +399,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2956860409467384298, guid: 36be6dbd4635816488d0e7dede122029, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.019921
+      value: 5.27
       objectReference: {fileID: 0}
     - target: {fileID: 2956860409467384298, guid: 36be6dbd4635816488d0e7dede122029, type: 3}
       propertyPath: m_LocalPosition.y
@@ -439,6 +440,10 @@ PrefabInstance:
     - target: {fileID: 4366674145197679532, guid: 36be6dbd4635816488d0e7dede122029, type: 3}
       propertyPath: m_Name
       value: NPC game1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768222911483899135, guid: 36be6dbd4635816488d0e7dede122029, type: 3}
+      propertyPath: targetScene
+      value: MG_SpaceSpam
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -528,14 +533,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -1100,6 +1105,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1506,6 +1512,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1793,6 +1800,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1850,7 +1858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 129.1, y: -51.5}
+  m_AnchoredPosition: {x: 130, y: -95}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1309622460
@@ -2027,6 +2035,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2369,6 +2378,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0e5932b470799e4b938d9cf661d4bdc, type: 3}
+--- !u!1001 &8430172180291073615
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1365842559911755281, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_Name
+      value: NPC FindDiffGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1405
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.6192
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730999692658521618, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d0e2aa01dd8ffa41b22020f1b670cee, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2384,3 +2450,4 @@ SceneRoots:
   - {fileID: 2858562437364326604}
   - {fileID: 353587361}
   - {fileID: 945084552}
+  - {fileID: 8430172180291073615}
